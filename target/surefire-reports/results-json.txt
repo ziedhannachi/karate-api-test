@@ -1,0 +1,1 @@
+{"features":1,"ignored":0,"efficiency":0.5279300079176564,"failures":{"src.test.resources.features.UserDetails":"UserDetails.feature:13 - path: $.date.id, actual: null, expected: 2, reason: actual json-path does not exist"},"totalTime":666.7756,"threads":1,"scenarios":1,"failed":1,"passed":0,"version":"0.9.5","elapsedTime":1263.0}

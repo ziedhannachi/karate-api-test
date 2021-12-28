@@ -1,0 +1,16 @@
+<testsuite failures="1" name="src/test/resources/features/GetAllIssuesFromJira.feature" skipped="0" tests="1" time="0.603328">
+  <testcase classname="src.test.resources.features.GetAllIssuesFromJira" name="To get all issues present in a project" time="0.603328">
+    <failure message="GetAllIssuesFromJira.feature:10 - status code was: 401, expected: 200, response time: 326, url: https://juggernauttester.atlassian.net/rest/api/2/search, response: Basic authentication with passwords is deprecated.  For more information, see: https://confluence.atlassian.com/cloud/deprecation-of-basic-authentication-with-passwords-for-jira-and-confluence-apis-972355348.html&#10;">Given url 'https://juggernauttester.atlassian.net/' ....................... passed
+And header Authorization = 'Basic a2FKYXJsYSSwcmFKZWVwNEBnbWFpbC5jb206TXRINOhMUKgzaWZqSzJsZIpSa20xQKY4' . passed
+And path 'rest/api/2/search' .............................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: GetAllIssuesFromJira.feature:10 - status code was: 401, expected: 200, response time: 326, url: https://juggernauttester.atlassian.net/rest/api/2/search, response: Basic authentication with passwords is deprecated.  For more information, see: https://confluence.atlassian.com/cloud/deprecation-of-basic-authentication-with-passwords-for-jira-and-confluence-apis-972355348.html
+&#13;
+	at ✽.Then status 200 (GetAllIssuesFromJira.feature:10)&#13;
+
+And print response ........................................................ skipped</failure>
+  </testcase>
+</testsuite>
